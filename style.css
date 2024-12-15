@@ -1,0 +1,456 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat";
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+    align-items: center;
+}
+.header ul{
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    list-style-type: none;
+}
+.header i{
+    display: none;
+}
+.Login-Btn{
+    background-color: #204e51;
+    border: none;
+    padding: 10px 35px ;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    margin-right: 8px;
+}
+.Sing-Btn{
+    border: 1px solid #204e51;
+    padding: 10px 35px ;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+.hero{
+    background-image: linear-gradient(rgba(0,20,0,0.6),rgba(0,0,0,0.6)), url(photos/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding: 40px 120px;
+    color: white;
+    text-align: center;
+    
+
+}
+.hero h1{
+    padding-top: 40px;
+    font-size: 100px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+.left{
+    width: 500px;
+}
+.left h1{
+    font-size: 50px;
+}
+.right{
+    width: 500px;
+    position: relative;
+}
+.right img{
+    width: 500px;
+    border-radius: 5px;
+}
+.right h2{
+    padding: 10px;
+    background-color: white;
+    width: 150px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 60px;
+    left: 175px; 
+    box-shadow: 0 0 1px 0px black;
+}
+
+.content{
+    text-align: center;
+    margin: 60px 0px;
+}
+.content h1{
+    font-size: 70px;
+    
+}
+.content p{
+    margin: 0px 360px;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+}
+.service1{
+    width: 220px;
+    height: 300px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0px 4px 6px gray;
+}
+.service1 img {
+    width: 90px;
+    padding-top: 90px;
+}
+/* Product section css */
+.products{
+    display: flex;
+    justify-content: center;
+}
+.product1{
+    width: 220px;
+    height: 450px;
+    margin: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px gray;
+}
+.product1 img{
+    width: 180px;
+    padding-top: 20px;
+}
+.product1 h2{
+    padding-top: 15px;
+}
+#see{
+text-align: center;
+padding-bottom: 40px;
+}
+.sustain{
+    height: 370px;
+    padding-top: 140px;
+    padding-left: 100px;
+    background-image: url(photos/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+.sustain h1{
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+/* benefig section css */
+.benefit{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+.b-left{
+    width: 550px;
+}
+.b-left h1{
+    font-size: 70px;
+}
+.b-left p{
+    margin: 40px 0px;
+}
+.b-right{
+    width: 500px;
+    height: 600px;
+    background-color: #012d30;
+    border-radius: 20px;
+}
+.information{
+    display: flex ;
+    color: white;
+    gap: 20px;
+    padding: 20px 40px;
+    align-items: center;
+}
+.information img{
+    width: 100px;
+}
+.information h1{
+    font-size: 50px;
+    
+}
+/* Testimonial */
+.testmonial{
+    display: grid;
+    grid-template-columns: 80px 900px 80px;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    width: 100%;
+    background-color: #012d30;
+   height: 400px;
+  
+  
+}
+.testmonial img{
+    width: 50px;
+    padding-top: 15px;
+    padding-left: 15px;
+    
+}
+/* .left-arrow,.right-arrow{
+    background-color: rgb(249, 245, 238);
+    width: 100%;
+    height: 80px;
+    border-radius: 50%;
+
+    
+} */
+.c-content{
+    display: flex;
+    color: white;
+    padding: 50px 80px;
+    gap: 40px
+    ;
+}
+.c-left{
+    width: 400px;
+}
+.c-right{
+    width: 500px;
+    margin-top: 30px;
+}
+.c-left img{
+    width: 300px;
+}
+.c-right i{
+    font-size: 25px;
+    color: rgb(226, 170, 1);
+    padding-bottom: 20px;
+}
+.c-right h6{
+    font-size: 20px;
+    font-weight: lighter;
+    color: gray;
+    padding-top: 20px;
+}
+.c-right p{
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+/* Blog */
+.blog{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.blog1{
+    width: 400px;
+}
+.blog1 h1{
+    padding-top: 20px;
+    font-size: 40px;
+    padding-bottom: 20px;
+};
+.blog1 p{
+    padding-bottom: 20px;
+    color: gray;
+}
+.blog1 a{
+    color: #012d30;
+    margin-top: 20px;
+}
+/* footer */
+.footer{
+    height: 300px;
+    background-color: #012d30;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 80px;
+    margin-top: 100px;
+}
+.f-left h1{
+    padding-bottom: 20px;
+}
+.f-left p{
+    padding-bottom: 20px;
+}
+.f-left img{
+    margin: 10px;
+}
+
+.f-center ul, .f-right ul{
+    list-style-type: none ;
+}
+.f-center ul li, .f-right ul li{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.f-center h1, .f-right h1 {
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.f-right{
+    margin-right: 200px;
+}
+
+@media screen and (max-width:600px) {
+     .header ul{
+        display: none;
+     }
+     .btns{
+        display: none;
+        
+     }
+     .header i{
+        display: inline;
+        font-size: 50px;
+     }
+     .header{
+        padding: 20px;
+     }
+     .hero h1{
+        font-size: 32px;
+     }
+     .hero{
+        padding: 10px;
+     }
+     .hero p{
+        padding: 20px;
+     }
+     .main{
+        flex-direction: column;
+        padding: 20px;
+     }
+     .left,.right{
+        width: 350px;
+     }
+     .left h1{
+        font-size: 30px;
+     }
+     .right img{
+        width: 350px;
+     }
+     .right h2{
+        left: 110px;
+        bottom: -20px;
+     }
+     .content h1{
+        font-size: 40px;
+     }
+     .content p{
+        margin: 10px;
+     }
+     .services{
+        flex-direction: column;
+        padding: 40px;
+     }
+     .products{
+        flex-direction: column;
+        margin: 40px;
+     }
+     .sustain{
+        padding: 20px;
+     }
+     .sustain h1{
+        font-size: 35px;
+     }
+
+     .benefit{
+        flex-direction: column;
+        
+        padding: 30px;
+        margin: 0;
+        
+        
+     }
+     .b-left,.b-right{
+        width: 300px;
+       
+     }
+     .b-right{ margin-top: 10px;
+    }
+     .b-left h1{
+        font-size: 30px;
+     }
+    
+     .testmonial{
+        grid-template-columns: 30px 280px 30px;
+        gap: 25px
+        ;
+        
+     }
+     .left-arrow img{
+        width: 30px;
+        
+     }
+     /* .left-arrow{
+        width: 30px;
+        height: 30px;
+     } */
+     .right-arrow img{
+        width: 30px;
+        margin-left: -30px;
+     }
+     .center{
+        height: 300px;
+     }
+     .c-left img{
+        width: 50px;
+     }
+
+
+     .center{
+        height: 200px;
+        padding: 0px;
+     }
+     .c-content{
+        padding: 0px 20px;
+        gap: 2px;
+     }
+     .c-left{
+        width: 200px;
+     }
+     .c-right{
+        width: 200px;
+     }
+     .c-right i{
+        font-size: 10px;
+        padding-bottom: 5px;
+     }
+     .c-right h1{
+        font-size: 5x;
+        padding-bottom: 5px;
+     }
+     .c-right h6{
+        font-size: 5px;
+        padding-top: 5px;
+     }
+     .c-right p{
+        font-size: 6px;
+        padding-top: 5px;
+     }
+     .c-left img{
+        width: 80px;
+     }
+    
+    
+}
+
+
+
+
+
