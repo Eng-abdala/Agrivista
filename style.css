@@ -11,6 +11,7 @@
     justify-content: space-between;
     padding: 30px 80px;
     align-items: center;
+    background-color: rgb(139, 182, 139);
 }
 .header ul{
     display: flex;
